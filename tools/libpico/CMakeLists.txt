@@ -94,6 +94,7 @@ target_link_libraries(pico
 	pico_util
 	tinyusb
 	tinyusb_device_unmarked
+	pico_sleep
 )
 
 add_custom_command(TARGET pico POST_BUILD
